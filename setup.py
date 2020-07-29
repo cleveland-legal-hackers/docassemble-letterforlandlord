@@ -43,12 +43,12 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.letterforlandlord',
-      version='1.0',
+      version='1.0.1',
       description=('Letter for Landord'),
-      long_description='# docassemble.letterforlandlord\n\nLetter for Landord\n\n## Author\n\njrjflei@gmail.com\n\n',
+      long_description='# docassemble.letterforlandlord\r\n\r\nLetter for Landord\r\n\r\n## Author\r\n\r\njrjflei@gmail.com\r\n\r\n',
       long_description_content_type='text/markdown',
-      author='',
-      author_email='jrjflei@gmail.com',
+      author='Stephen T',
+      author_email='sdtsignup@gmail.com',
       license='The MIT License',
       url='https://docassemble.org',
       packages=find_packages(),
